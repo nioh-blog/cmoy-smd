@@ -6,7 +6,7 @@
     (area 83.649999 62.225 167.625001 123.25)
     (thickness 1.6)
     (drawings 5)
-    (tracks 100)
+    (tracks 101)
     (zones 0)
     (modules 14)
     (nets 16)
@@ -716,6 +716,7 @@
   (gr_line (start 83.7 123) (end 156.6 123) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 156.5 68) (end 156.5 123) (angle 90) (layer Edge.Cuts) (width 0.1))
 
+  (segment (start 95.25 92.71) (end 139.7 92.71) (width 0.5) (layer B.Cu) (net 0))
   (segment (start 104.16 119) (end 104.16 119.64) (width 0.7) (layer B.Cu) (net 1))
   (segment (start 112.4 67.4) (end 118.5 67.4) (width 0.7) (layer B.Cu) (net 1) (tstamp 58C2BB0A))
   (segment (start 110.6 69.2) (end 112.4 67.4) (width 0.7) (layer B.Cu) (net 1) (tstamp 58C2BB09))
