@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = śro, 8 mar 2017, 15:17:25
+
+BeginCmp
+TimeStamp = /576B937E;
+Reference = 9V1;
+ValeurCmp = Bateria;
+IdModule  = tk_SolderWirePad_2x_1mmDrill-nioh;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B8D8A;
+Reference = C1;
+ValeurCmp = 470uF;
+IdModule  = tk_c1_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B8DD1;
+Reference = C2;
+ValeurCmp = 470uF;
+IdModule  = tk_c2_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5799CC47;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = tk_wima_C_Rect_L7_W2.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5799D456;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = tk_wima_C_Rect_L7_W2.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57961887;
+Reference = jack_in1;
+ValeurCmp = lumberg;
+IdModule  = tk_lumberg;
+EndCmp
+
+BeginCmp
+TimeStamp = /579600D8;
+Reference = jack_out1;
+ValeurCmp = lumberg;
+IdModule  = tk_lumberg;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B8E4E;
+Reference = R1;
+ValeurCmp = 4,7k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B8ED7;
+Reference = R2;
+ValeurCmp = 4,7k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B9F4D;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B9EB8;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B9B60;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B9B93;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576BC398;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576BC3E9;
+Reference = R8;
+ValeurCmp = 100k;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /579B1CB6;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /579B1DA7;
+Reference = R10;
+ValeurCmp = 100;
+IdModule  = tk_Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /576BB17C;
+Reference = RV1;
+ValeurCmp = DUAL_POT;
+IdModule  = tk_Potentiometer_10k-double-nioh;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B95AD;
+Reference = U1;
+ValeurCmp = OPA2604A;
+IdModule  = tk_DIP-8_W7.62mm;
+EndCmp
+
+EndListe
