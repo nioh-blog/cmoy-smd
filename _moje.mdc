@@ -1,0 +1,99 @@
+PCBNEW-LibDoc----V1  2011-12-10 13:54:37
+#
+$MODULE RV2
+Li RV2
+Cd Resistance variable / potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE RV2a
+Li RV2a
+Cd Resistance variable / potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE DIP-22__400
+Li DIP-22__400
+Cd 22 pins DIL package, round pads
+Kw DIL
+$EndMODULE
+#
+$MODULE R12
+Li R12
+Cd Resistance 6 pas
+Kw R
+$EndMODULE
+#
+$MODULE R13
+Li R13
+Cd Resistance 6 pas
+Kw R
+$EndMODULE
+#
+$MODULE R11
+Li R11
+Cd Resistance 6 pas
+Kw R
+$EndMODULE
+#
+$MODULE DIP-22__300_ELL
+Li DIP-22__300_ELL
+Cd 22 pins DIL package, elliptical pads
+Kw DIL
+$EndMODULE
+#
+$MODULE DIP-22__400_ELL
+Li DIP-22__400_ELL
+Cd 22 pins DIL package, elliptical pads
+Kw DIL
+$EndMODULE
+#
+$MODULE LED5
+Li LED5
+Cd LED 5mm - Lead pitch 100mil (2,54mm)
+Kw LED led 5mm 5MM 100mil 2,54mm
+$EndMODULE
+#
+$MODULE potencjometr
+Li potencjometr
+Cd Resistance variable / potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE 0TO92
+Li 0TO92
+Cd Transistor TO92 brochage type BC237
+Kw TR TO92
+$EndMODULE
+#
+$MODULE PR
+Li PR
+Cd Resistance variable / Potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE RV2X3
+Li RV2X3
+Cd Resistance variable / Potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE PR2
+Li PR2
+Cd Resistance variable / Potentiometre
+Kw R
+$EndMODULE
+#
+$MODULE TO-92_CBE
+Li TO-92_CBE
+Cd Transistor TO92 brochage type BC237
+Kw TR TO92
+$EndMODULE
+#
+$MODULE TO-92_ECB
+Li TO-92_ECB
+Cd Transistor TO92 brochage type BC237
+Kw TR TO92
+$EndMODULE
+#
+$EndLIBDOC
