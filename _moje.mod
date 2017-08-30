@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  wto, 14 mar 2017, 13:07:46
+PCBNEW-LibModule-V1  śro, 30 sie 2017, 12:29:59
 # encoding utf-8
 Units mm
 $INDEX
@@ -94,6 +94,7 @@ tk_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5
 tk_DIP-8_W7.62mm
 tk_Potentiometer_10k-double-nioh
 tk_Resistor_Horizontal_RM10mm
+tk_SMD_HandSold_805_R
 tk_SolderWirePad_2x_1mmDrill-nioh
 tk_c1_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5
 tk_c2_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5
@@ -6607,6 +6608,40 @@ Of 0.2 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE tk_Resistor_Horizontal_RM10mm
+$MODULE tk_SMD_HandSold_805_R
+Po 0 0 0 15 59A69395 00000000 ~~
+Li tk_SMD_HandSold_805_R
+Cd Resistor SMD 0805, hand soldering
+Kw resistor 0805
+Sc 0
+AR /576BC398
+Op 0 0 0
+At SMD
+T0 0 -2.54 1.524 1.524 0 0.15 N V 21 N "R"
+T1 0 2.54 1.524 1.524 0 0.15 N V 21 N "0"
+DS 0.6 0.88 -0.6 0.88 0.12 21
+DS -0.6 -0.88 0.6 -0.88 0.12 21
+$PAD
+Sh "1" R 1.5 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 1 "GNDREF"
+Po -1.35 0
+$EndPAD
+$PAD
+Sh "2" R 1.5 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 2 "N-0000011"
+Po 1.35 0
+$EndPAD
+$SHAPE3D
+Na "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE tk_SMD_HandSold_805_R
 $MODULE tk_SolderWirePad_2x_1mmDrill-nioh
 Po 0 0 0 15 58BEB3C9 00000000 ~~
 Li tk_SolderWirePad_2x_1mmDrill-nioh
