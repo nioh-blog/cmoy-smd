@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  śro, 30 sie 2017, 12:29:59
+PCBNEW-LibModule-V1  czw, 31 sie 2017, 15:09:40
 # encoding utf-8
 Units mm
 $INDEX
@@ -95,6 +95,7 @@ tk_DIP-8_W7.62mm
 tk_Potentiometer_10k-double-nioh
 tk_Resistor_Horizontal_RM10mm
 tk_SMD_HandSold_805_R
+tk_SMD_SOIC8_1
 tk_SolderWirePad_2x_1mmDrill-nioh
 tk_c1_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5
 tk_c2_Capacitors_ThroughHole:C_Radial_D12.5_L25_P5
@@ -6642,6 +6643,87 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE tk_SMD_HandSold_805_R
+$MODULE tk_SMD_SOIC8_1
+Po 0 0 0 15 59A80A6F 00000000 ~~
+Li tk_SMD_SOIC8_1
+Cd Module Narrow CMS SOJ 8 pins large
+Kw CMS SOJ
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -1.27 1 1 0 0.15 N V 21 N "opamp"
+T1 0 0 1.524 1.524 0 0.15 N V 21 N ""
+DS -2.54 -2.286 2.54 -2.286 0.15 21
+DS 2.54 -2.286 2.54 2.286 0.15 21
+DS 2.54 2.286 -2.54 2.286 0.15 21
+DS -2.54 2.286 -2.54 -2.286 0.15 21
+DS -2.54 -0.762 -2.032 -0.762 0.15 21
+DS -2.032 -0.762 -2.032 0.508 0.15 21
+DS -2.032 0.508 -2.54 0.508 0.15 21
+$PAD
+Sh "8" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -3.175
+$EndPAD
+$PAD
+Sh "7" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -3.175
+$EndPAD
+$PAD
+Sh "6" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -3.175
+$EndPAD
+$PAD
+Sh "5" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -3.175
+$EndPAD
+$PAD
+Sh "4" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 3.175
+$EndPAD
+$PAD
+Sh "3" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 3.175
+$EndPAD
+$PAD
+Sh "2" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 3.175
+$EndPAD
+$PAD
+Sh "1" R 0.508 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 3.175
+$EndPAD
+$SHAPE3D
+Na "SMD_Packages.3dshapes/SOIC-8-N.wrl"
+Sc 0.5 0.38 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE tk_SMD_SOIC8_1
 $MODULE tk_SolderWirePad_2x_1mmDrill-nioh
 Po 0 0 0 15 58BEB3C9 00000000 ~~
 Li tk_SolderWirePad_2x_1mmDrill-nioh
