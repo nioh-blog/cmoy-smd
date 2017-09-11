@@ -3,7 +3,7 @@
   (general
     (links 27)
     (no_connects 27)
-    (area 82.949999 64.949999 145.001666 149.375001)
+    (area 82.949999 64.949999 143.050001 149.375001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -252,7 +252,7 @@
   )
 
   (module tk_SolderWirePad_2x_1mmDrill-nioh   placed (layer F.Cu) (tedit 59A6A63A) (tstamp 59A6A588)
-    (at 114.1 94.6 180)
+    (at 113.03 77.47 180)
     (path /576B937E)
     (fp_text reference 9V1 (at -5.875 -2.625 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
